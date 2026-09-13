@@ -74,6 +74,18 @@
     margin-bottom: 28px;
   }
 
+  .ad-slot {
+    border: 1px dashed #c3c9d3;
+    background: #fbfbfc;
+    color: #9aa2ae;
+    font-size: 12px;
+    text-align: center;
+    padding: 22px 10px;
+    margin: 28px 0;
+    letter-spacing: 0.05em;
+  }
+  .ad-slot.banner { padding: 34px 10px; }
+
   .controls {
     display: flex;
     flex-wrap: wrap;
@@ -169,6 +181,30 @@
     display: none;
   }
 
+  .series-nav {
+    margin-top: 40px;
+    padding-top: 24px;
+    border-top: 1px solid var(--line);
+  }
+  .series-nav h2 { font-size: 15px; margin: 0 0 12px; color: var(--navy-deep); }
+  .series-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  .series-links span {
+    font-size: 13px;
+    padding: 7px 12px;
+    background: var(--surface);
+    border: 1px solid var(--line);
+    color: var(--slate);
+  }
+  .series-links span.current {
+    background: var(--navy);
+    color: #fff;
+    border-color: var(--navy);
+  }
+
   footer {
     background: var(--navy-deep);
     color: #aab4c4;
@@ -219,11 +255,12 @@
   <div class="grid" id="grid"></div>
   <div class="empty-state" id="emptyState">該当する企業が見つかりませんでした。検索条件を変えてお試しください。</div>
 
+  
 </main>
 
 <footer>
   <div class="inner">
-    掲載内容は各社公式サイト等の公開情報をもとに独自に要約しています。最新の対応条件は各社へ直接ご確認ください。掲載内容の修正・削除をご希望の場合はお問い合わせください。
+    掲載内容は各社公式サイト等の公開情報をもとに独自に要約しています。最新の対応条件は各社へ直接ご確認ください。掲載内容の修正・削除・お問い合わせ：<a href="mailto:restplace.co@gmail.com" style="color:inherit;">restplace.co@gmail.com</a>
   </div>
 </footer>
 
@@ -271,6 +308,8 @@ function render() {
       ${c.url ? `<a class="site-link" href="${c.url}" target="_blank" rel="noopener noreferrer">公式サイトを見る</a>` : `<span class="no-link">公式サイトURL：確認中</span>`}
     `;
     grid.appendChild(card);
+
+    // insert an in-feed ad slot every 6 cards
   });
 }
 
