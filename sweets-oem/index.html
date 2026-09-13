@@ -5,6 +5,7 @@
      crossorigin="anonymous"></script>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="洋菓子・スイーツのOEM・PB製造に対応する食品関連工場30社を、各社の公開情報をもとに独自に整理。冷凍ケーキ、焼き菓子、プリン、ゼリーなどの商品開発先探しに。">
 <title>洋菓子・スイーツOEM×食品関連工場まとめ30選</title>
 <style>
   :root {
@@ -62,6 +63,7 @@
     max-width: 640px;
   }
   main { max-width: 880px; margin: 0 auto; padding: 28px 20px 60px; }
+
   .notice {
     background: var(--surface);
     border: 1px solid var(--line);
@@ -71,17 +73,7 @@
     color: var(--slate);
     margin-bottom: 28px;
   }
-  .ad-slot {
-    border: 1px dashed #c3c9d3;
-    background: #fbfbfc;
-    color: #9aa2ae;
-    font-size: 12px;
-    text-align: center;
-    padding: 22px 10px;
-    margin: 28px 0;
-    letter-spacing: 0.05em;
-  }
-  .ad-slot.banner { padding: 34px 10px; }
+
   .controls {
     display: flex;
     flex-wrap: wrap;
@@ -116,6 +108,7 @@
     color: var(--slate);
     margin-bottom: 16px;
   }
+
   .grid {
     display: grid;
     grid-template-columns: 1fr;
@@ -124,6 +117,7 @@
   @media (min-width: 640px) {
     .grid { grid-template-columns: 1fr 1fr; }
   }
+
   .card {
     background: var(--surface);
     border: 1px solid var(--line);
@@ -166,6 +160,7 @@
     font-size: 12.5px;
     color: var(--slate-light);
   }
+
   .empty-state {
     text-align: center;
     padding: 40px 10px;
@@ -173,6 +168,7 @@
     font-size: 14px;
     display: none;
   }
+
   footer {
     background: var(--navy-deep);
     color: #aab4c4;
@@ -184,6 +180,7 @@
 .rich-intro{background:#fff;border:1px solid var(--line);border-radius:18px;padding:26px;margin-bottom:28px;box-shadow:0 10px 35px rgba(20,40,80,.06)}.rich-intro h2{margin:0 0 8px;font-size:22px}.rich-intro>p{color:var(--slate);font-size:14px}.guide-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:10px;margin-top:18px}.guide-grid>div{background:#f8f5f1;padding:15px;border-radius:12px}.guide-grid b{display:block;margin-bottom:5px}.guide-grid span{font-size:12px;color:var(--slate)}@media(max-width:640px){.guide-grid{grid-template-columns:1fr}}</style>
 </head>
 <body>
+
 <header class="hero">
   <div class="hero-inner">
     <span class="eyebrow">SWEETS OEM DIRECTORY — 2026</span>
@@ -191,10 +188,12 @@
     <p class="lead">冷凍ケーキ、焼き菓子、プリン、ゼリー、バウムクーヘンなど。オリジナルスイーツのOEM・PB製造を検討するときに比較したい企業30社を、各社の公開情報をもとに独自に整理しました。</p>
   </div>
 </header>
+
 <main>
   <div class="notice">
     掲載内容は各社公式サイト等の公開情報をもとに独自に要約しています。OEM対応品目・最低ロット・価格・納期などは変更される場合があります。発注前に必ず各社へ最新条件をご確認ください。掲載内容の修正・削除をご希望の場合はお問い合わせください。
   </div>
+
   <section class="rich-intro">
 <h2>スイーツOEMを検討する前に確認したい4つのポイント</h2>
 <p>同じ「洋菓子OEM」でも、商品ジャンルや販売方法によって確認すべき条件は大きく変わります。気になる工場を見つけたら、価格だけでなく販売後の運用までイメージして比較するのがおすすめです。</p>
@@ -204,7 +203,8 @@
 <div><b>📦 最低ロットを確認</b><span>試験販売では小ロット対応が重要です。最低製造数だけでなく、フレーバーごとのロットや包材の最低発注数も確認すると比較しやすくなります。</span></div>
 <div><b>🎁 包装・商品開発の範囲を確認</b><span>レシピ開発、原料指定、個包装、ギフト箱、パッケージ提案まで対応範囲は会社ごとに異なります。どこまで任せたいかを先に整理しておくのがおすすめです。</span></div>
 </div></section>
-<div class="ad-slot banner">広告枠 / Google AdSense 自動広告対応</div>
+<!-- Google AdSense Auto ads: placement is handled automatically by AdSense -->
+
   <div class="controls">
     <input type="text" class="search-box" id="searchBox" placeholder="企業名で検索">
     <button class="filter-btn active" data-tag="all">すべて</button>
@@ -213,40 +213,52 @@
     <button class="filter-btn" data-tag="プリン・ゼリー">プリン・ゼリー</button>
     <button class="filter-btn" data-tag="総合">総合</button>
   </div>
+
   <div class="count-line" id="countLine"></div>
+
   <div class="grid" id="grid"></div>
   <div class="empty-state" id="emptyState">該当する企業が見つかりませんでした。検索条件を変えてお試しください。</div>
+
 </main>
+
 <footer>
   <div class="inner">
     掲載内容は各社公式サイト等の公開情報をもとに独自に要約しています。最新の対応条件は各社へ直接ご確認ください。掲載内容の修正・削除をご希望の場合はお問い合わせください。
   </div>
 </footer>
+
 <script>
 const COMPANIES = [{"name": "株式会社日東スイーツ", "tag": "冷凍ケーキ", "summary": "業務用冷凍ケーキのODM/OEMを主軸とする専門メーカー。デコレーションケーキ、モンブラン、チョコレートケーキ、タルト・パイなどに対応し、企画から納品まで相談できます。", "url": "https://www.nitto-sweets.com/"}, {"name": "株式会社シェリエ", "tag": "焼き菓子", "summary": "バウムクーヘン、クッキー、パウンドケーキ、フロランタンなど幅広い洋菓子を量産。ホテル・コンビニ・カフェなど向けのオリジナル商品実績を案内しています。", "url": "https://www.cherier.co.jp/"}, {"name": "株式会社石田老舗", "tag": "焼き菓子", "summary": "京都で長年培った菓子製造ノウハウを活かし、フィナンシェやクッキーなど多彩な和洋菓子のOEMに対応。商品開発からパッケージまでワンストップで相談できます。", "url": "https://ishidaroho.com/oem/"}, {"name": "若尾製菓株式会社", "tag": "焼き菓子", "summary": "クッキー、ケーキ、フィナンシェ、タルト、ドーナツ、バウム、ラングドシャなど幅広い洋菓子の受託製造を案内。企画やパッケージ提案にも対応しています。", "url": "https://wakaoseika.co.jp/"}, {"name": "株式会社ユキオー", "tag": "総合", "summary": "和菓子・洋菓子・生菓子のOEM/ODM、PB開発、共同開発を行う菓子ファクトリー。幅広い商品開発を相談したい場合の候補です。", "url": "https://www.yukioo.co.jp/"}, {"name": "ルナ物産株式会社", "tag": "プリン・ゼリー", "summary": "チルドプリン、ゼリー、蒸しプリンなどのOEM・PB商品を展開。容量、配合、パッケージタイプなどを打ち合わせながら商品化を進める流れを案内しています。", "url": "https://www.lunabussan.co.jp/oem/"}, {"name": "株式会社侍ファクトリー", "tag": "プリン", "summary": "北海道の自社工場でプリンOEMを展開。公式サイトではベースレシピプラン40本から、アレンジやフルカスタムなど段階的なプランを案内しています。", "url": "https://purin-oem.jp/"}, {"name": "株式会社スターティック", "tag": "プリン・ゼリー", "summary": "常温タイプのゼリー・プリン、焼き菓子などの企画・開発・製造・販売を展開。進物、小売、外食向けなど幅広い用途を案内しています。", "url": "https://startic.co.jp/"}, {"name": "有限会社谷口物産", "tag": "総合", "summary": "ゼリー・プリンなどの水菓子から、クッキー、フィナンシェ、包餡タイプの焼き菓子まで複数の製造ラインを保有。小ロットから大ロットまで相談可能としています。", "url": "https://www.taniguchibussan.co.jp/"}, {"name": "株式会社梅花堂本店", "tag": "プリン・ゼリー", "summary": "100年以上の菓子製造経験を持ち、ゼリー、プリンなどの流し物や焼き菓子のOEM/PBに対応。企画、サンプル、量産、納品まで一貫した流れを案内しています。", "url": "https://baikadou.co.jp/oem"}, {"name": "有限会社エムアンドアール", "tag": "ケーキ・焼き菓子", "summary": "焼菓子製造のノウハウを活かしたOEM工場。半熟チーズケーキ、壺プリン、マカロン、タルト、焼ドーナツなどの製造実績を紹介しています。", "url": "https://www.m-and-r.co.jp/"}, {"name": "株式会社J&T", "tag": "焼き菓子", "summary": "関東を拠点に焼き菓子のOEM製造を展開。ホテルや製菓メーカー向けの焼き菓子詰め合わせなどを手掛けています。", "url": "https://www.j-and-t.jp/"}, {"name": "イートウェル株式会社", "tag": "総合", "summary": "自社洋菓子工場を持ち、常温・冷凍菓子のOEMを小ロットから受託。百貨店、量販店、EC、ホテルなど幅広い販路への供給実績を案内しています。", "url": "https://www.eat-well.co.jp/"}, {"name": "株式会社F・L・B", "tag": "ケーキ・チョコ", "summary": "冷凍生ケーキ、チョコレート製品、焼菓子などに対応。オリジナルレシピやパッケージの相談、3Dプリンターを使った型のクッキーなども案内しています。", "url": "https://flb-sweets.com/"}, {"name": "むさしの製菓株式会社", "tag": "冷凍ケーキ", "summary": "冷凍ケーキ、冷凍スポンジ、焼菓子、土産菓子などを製造。機械設備と手作業を組み合わせた製品づくりを特徴として紹介しています。", "url": "https://www.musashino-seika.jp/"}, {"name": "太陽食品株式会社", "tag": "焼き菓子", "summary": "バウムクーヘン、ロールケーキ、クッキー、マフィン、フィナンシェなど多彩な焼き菓子の受託製造を案内。商品開発スタッフと職人による提案型のものづくりが特徴です。", "url": "https://www.pounds-mate.com/oem"}, {"name": "株式会社美松製菓", "tag": "バウムクーヘン", "summary": "バウムクーヘンOEMを中心に、100種類を超えるアイテムを展開。指定素材を使った商品開発や全国配送についても案内しています。", "url": "https://www.tokyo-baumkuchen.co.jp/oem.html"}, {"name": "株式会社日東コーン・アルム", "tag": "冷凍ケーキ", "summary": "プレミアム冷凍ケーキを中心に、焼菓子やアイスなども展開。企画・開発から製造まで、手づくり感を重視したOEMに対応しています。", "url": "https://www.nc-arm.com/"}, {"name": "オリエンシャス食品株式会社", "tag": "冷凍ケーキ", "summary": "ティラミス、チーズ系、パウンド系など業務用冷凍ケーキを展開し、要望に合わせたオリジナル冷凍ケーキのOEMにも対応しています。", "url": "https://www.oriencious.com/product"}, {"name": "株式会社フランドール", "tag": "冷凍洋菓子", "summary": "ケーキやムースなどの冷凍洋菓子を製造。大規模な生産ラインと衛生管理体制を持ち、オリジナル洋菓子のOEMを案内しています。", "url": "https://frandoll.jp/"}, {"name": "日之出物産株式会社", "tag": "総合", "summary": "冷凍ケーキ、ロールケーキ、シュークリーム、カップデザート、プリン、ゼリー、焼き菓子などを展開。ブランドイメージに合わせたOEM提案を行っています。", "url": "https://hinodebussan.co.jp/work_02"}, {"name": "株式会社レートリー", "tag": "冷凍洋菓子", "summary": "業務用冷凍洋菓子のOEM・PB受託製造を専門とするメーカー。冷凍スイーツを軸にした商品開発の候補としてチェックしたい企業です。", "url": "https://leitry.co.jp/"}, {"name": "株式会社一富士製菓", "tag": "土産菓子", "summary": "ブッセ、チーズケーキ、ガトーショコラなどの洋菓子や観光土産菓子を製造。OEM・業務用商品について相談を受け付けています。", "url": "https://www.ichifuji-seika.jp/"}, {"name": "株式会社山から", "tag": "シュークリーム", "summary": "冷凍シュークリーム・冷凍洋菓子のOEMを展開。レシピ開発から製造・包装まで、小ロットから大規模量産まで相談できると案内しています。", "url": "https://yama-kara.jp/business/oem/"}, {"name": "スズラン製菓", "tag": "焼き菓子", "summary": "バウムクーヘン、マドレーヌなどのオリジナル焼き菓子を少量から大量生産まで相談可能。原料指定やPB、催事商品などの用途も案内しています。", "url": "https://www.suzuran-seika.co.jp/oem/"}, {"name": "株式会社ウイッシュボン", "tag": "焼き菓子", "summary": "マドレーヌ、ダックワーズ、パウンドケーキ、フィナンシェ、ブラウニー、各種クッキーなどの洋菓子OEMを展開しています。", "url": "https://wishbon.co.jp/oem/"}, {"name": "パティスリーピニョン", "tag": "ケーキ・チョコ", "summary": "洋菓子、ケーキ、チョコレートをはじめ、量販店やカフェ向けのOEM・業務用卸に対応しています。", "url": "https://pignon.jp/"}, {"name": "パリ・ドートンヌ", "tag": "フィナンシェ", "summary": "フィナンシェを中心とした焼菓子OEMを展開。パティシエ監修のもと、味だけでなくギフトとしての見せ方や販売目線も含めた提案を掲げています。", "url": "https://paris-dautomne.com/pages/financier-oem"}, {"name": "あさひ製菓株式会社", "tag": "総合", "summary": "100年以上の歴史を持ち、和菓子・洋菓子などのOEM/PBを受託。蒸しカステラ、サブレ、ケーキなどの設備・手作業製造を組み合わせています。", "url": "https://www.kasinoki.co.jp/oem/index.html"}, {"name": "株式会社ケント", "tag": "洋菓子全般", "summary": "飲食店向けのフレッシュケーキ、冷凍ケーキ、焼き菓子などを企画・製造。洋菓子全般のOEM/PBを小ロット中心に案内しています。", "url": "https://kentrise.com/merchandise/"}];
+
 const TAG_CLASS = {
   "冷凍ケーキ":"t-c","冷凍洋菓子":"t-c","ケーキ・チョコ":"t-c","ケーキ・焼き菓子":"t-c",
   "焼き菓子":"t-b","バウムクーヘン":"t-b","フィナンシェ":"t-b","土産菓子":"t-b",
   "プリン・ゼリー":"t-a","プリン":"t-a","シュークリーム":"t-a","総合":"t-c","洋菓子全般":"t-c"
 };
+
 let activeTag = "all";
 let query = "";
+
 function render() {
   const grid = document.getElementById('grid');
   const empty = document.getElementById('emptyState');
   const countLine = document.getElementById('countLine');
   grid.innerHTML = "";
+
   const filtered = COMPANIES.filter((c, idx) => {
     const matchesTag = activeTag === "all" || c.tag === activeTag;
     const matchesQuery = query === "" || c.name.toLowerCase().includes(query.toLowerCase());
     return matchesTag && matchesQuery;
   });
+
   countLine.textContent = filtered.length + " 社を表示中（全" + COMPANIES.length + "社）";
+
   if (filtered.length === 0) {
     empty.style.display = "block";
   } else {
     empty.style.display = "none";
   }
+
   filtered.forEach((c, i) => {
     const card = document.createElement('div');
     card.className = 'card';
@@ -259,19 +271,14 @@ function render() {
       ${c.url ? `<a class="site-link" href="${c.url}" target="_blank" rel="noopener noreferrer">公式サイトを見る</a>` : `<span class="no-link">公式サイトURL：確認中</span>`}
     `;
     grid.appendChild(card);
-    if ((i + 1) % 6 === 0 && (i + 1) !== filtered.length) {
-      const ad = document.createElement('div');
-      ad.className = 'ad-slot';
-      ad.style.gridColumn = '1 / -1';
-      ad.textContent = '広告枠（インフィード広告）';
-      grid.appendChild(ad);
-    }
   });
 }
+
 document.getElementById('searchBox').addEventListener('input', (e) => {
   query = e.target.value;
   render();
 });
+
 document.querySelectorAll('.filter-btn').forEach(btn => {
   btn.addEventListener('click', () => {
     document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
@@ -280,7 +287,9 @@ document.querySelectorAll('.filter-btn').forEach(btn => {
     render();
   });
 });
+
 render();
 </script>
+
 </body>
 </html>
