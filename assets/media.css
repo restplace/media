@@ -1,0 +1,15 @@
+
+.rp-nav,.rp-footer,.rp-related,.rp-source-note{font-family:-apple-system,BlinkMacSystemFont,"Hiragino Kaku Gothic ProN","Yu Gothic",sans-serif;line-height:1.8;box-sizing:border-box}
+.rp-nav{background:#fff;color:#193a30;border-bottom:1px solid #dce5df;padding:14px 20px}
+.rp-nav>div{max-width:1120px;margin:auto;display:flex;gap:12px 26px;flex-wrap:wrap;align-items:center}
+.rp-nav a{color:inherit;font-size:14px;text-decoration:none}.rp-nav a:first-child{font-weight:800;margin-right:auto}
+.rp-nav a:hover,.rp-footer a:hover{text-decoration:underline}
+.rp-related{max-width:1040px;margin:40px auto;padding:28px;background:#f1f5f1;border:1px solid #dbe5dc;border-radius:14px;color:#1c3a2c}
+.rp-related h2{margin:0 0 18px;font-size:23px;line-height:1.5}.rp-related ul{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;padding:0;list-style:none;margin:0 0 18px}
+.rp-related li{padding:12px;background:#fff;border-radius:8px}.rp-related a{color:#234f3c;font-size:14px}
+.rp-footer{background:#102c21;color:#e8f0e9;padding:28px 24px;text-align:center;font-size:13px}
+.rp-footer nav{display:flex;gap:10px 20px;justify-content:center;flex-wrap:wrap}.rp-footer a{color:inherit}
+.rp-source-note{font-size:13px;color:#52645c;margin:24px 0}
+.rp-home-media{padding:22px;border:1px solid #dce5df;border-radius:12px;background:#f1f5f1;margin:28px 0}.rp-home-media h2{margin-top:0}.rp-home-media a{color:#173c2d;font-weight:700}
+.rp-directory{max-width:1080px;margin:auto;padding:48px 24px 64px;color:#193a30}.rp-directory h1{font-size:clamp(29px,5vw,42px);line-height:1.4}.rp-directory .rp-lead{max-width:760px;color:#52665a}.rp-cards{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px;margin-top:32px}.rp-card{border:1px solid #dae4dc;border-radius:14px;background:#fff;padding:24px}.rp-card h2{font-size:21px;line-height:1.5;margin:0 0 12px}.rp-card p{font-size:14px;color:#53675a}.rp-card a{color:#1a533a}.rp-directory section{padding:12px 0}.rp-directory a{overflow-wrap:anywhere}.rp-directory li{margin-bottom:12px}
+@media(max-width:640px){.rp-related{margin:24px 12px;padding:20px}.rp-related ul,.rp-cards{grid-template-columns:1fr}.rp-nav a:first-child{width:100%}.rp-directory{padding-top:30px}}

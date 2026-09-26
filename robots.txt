@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://restplace.jp/sitemap.xml
